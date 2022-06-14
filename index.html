@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- contain task 1 -->
+    <section>
+        <div class="contain">
+            <div class="contain-show-img">
+                <div class="show-img">
+                    <img src="" alt="" id="img-cate-crud">
+                </div>
+
+                <button type="button">
+                    click để chọn ảnh
+                    <input type="file" class="file-img" id="file_img" name="file-img"
+                        onchange="document.getElementById('img-cate-crud').src = window.URL.createObjectURL(this.files[0])">
+                </button>
+
+            </div>
+        </div>
+    </section>
+    <!-- contain task 2 -->
+    <section>
+        <p class="title"><i class="fa-solid fa-ranking-star title"></i> Ranking</p>
+        <div class="contain-ranking">
+            <div class="infor-ranking">
+                <div class="store-ranking">
+                    <h3>STORE RANKING <i class="fa-solid fa-circle-info"></i></h3>
+                </div>
+                <span class="border"></span>
+                <div class="last-update">
+                    <p>Last update: Viet Nam 23/2/2002</p>
+                </div>
+            </div>
+
+            <div class="main-contain">
+                <div class="nav-ranking">
+                    <div class="nav-l">
+                        <div class="store">
+                            <b>Store: </b>
+                            <div class="contain-check-box">
+                                <input type="radio" name="app" value="1">
+                                  <label for="html">App Store</label><br>
+                                  <input type="radio" name="app" value="2">
+                                  <label for="css" class="r-active">Google Store</label><br>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <p>Japaniess</p>
+                            <div class="drop-down">
+                                <div class="hidden">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="country">
+                            <p>All charts</p>
+                            <div class="drop-down">
+                                <div class="hidden">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <p>All Genres</p>
+                            <div class="drop-down">
+                                <div class="hidden">
+                                </div>
+                            </div>
+                            <div class="list-drop-down">
+                                <p>value 1</p>
+                                <p>value 2</p>
+                                <p>value 3</p>
+                                <p>value 4</p>
+                            </div>
+                        </div>
+                        <div class="country">
+                            <p>More inf</p>
+                            <div class="drop-down">
+                                <div class="hidden">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>22/3/2030</p>
+                        </div>
+                    </div>
+                    <div class="nav-r">
+                        <div class="csv-op">
+                            <p>OSC output </p><i class="fa-solid fa-cloud-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-ranking">
+                    <div class="group-item">
+                        <span class="header">Grossing Ranking</span>
+                        <div class="contain-item">
+                            <div class="item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="yellow">1</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item active-item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="pink">2</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="blueviolet">3</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item active-item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="blue">4</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="orange">5</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item active-item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="blue">6</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="group-item">
+                        <span class="header">Wourld Ranking</span>
+                        <div class="contain-item">
+                            <div class="item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="yellow">1</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item active-item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="pink">2</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="blueviolet">3</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item active-item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="blue">4</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="orange">5</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item active-item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="blue">6</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="group-item">
+                        <span class="header">Server Ranking</span>
+                        <div class="contain-item">
+                            <div class="item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="yellow">1</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item active-item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="pink">2</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="blueviolet">3</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item active-item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="blue">4</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="orange">5</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                            <div class="item active-item">
+                                <i class="fa-solid fa-forward-step"></i>
+                                <p class="blue">6</p>
+                                <img src="img/father.png" alt="">
+                                <div class="infor-item">
+                                    <H3> Hello World !!</H3>
+                                    <p>World can't say hello u</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+</body>
+
+</html>
