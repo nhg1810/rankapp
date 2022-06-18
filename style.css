@@ -46,22 +46,19 @@ p{
     justify-content: space-evenly;
 }
 .contain .contain-show-img > .show-img{
-    width: 78%;
-    height: 300px;
+    width: 80%;
+    padding-bottom: 40%;
+    position: relative;
     border-radius: 10px;
     background-color: rgb(127, 182, 255);
-    position: relative;
     overflow: hidden;
 
 }
 .contain .contain-show-img > .show-img>img{
-    width:auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    object-fit: cover;
 }
 .contain .contain-show-img > button{
     height: 50px;
